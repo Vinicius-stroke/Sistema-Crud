@@ -1,0 +1,29 @@
+body {
+            min-height: 100vh;
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.55),
+                rgba(0, 0, 0, 0.55)
+            ),
+            url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d") no-repeat center center;
+            background-size: cover;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+        }
+
+        .form-control {
+            border-radius: 10px;
+        }
+
+        .btn-primary {
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: #0d6efd;
+        }
