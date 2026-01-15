@@ -54,6 +54,8 @@ btnCriarConta.addEventListener('click', function(e){
     localStorage.setItem('dados', JSON.stringify(dados))
     alert('Conta criada com sucesso')
 
+    window.location.href = 'login.html'
+
     }
 
     nome.value = ''
