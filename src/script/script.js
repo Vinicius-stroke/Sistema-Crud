@@ -1,4 +1,6 @@
-// ids selecionados:
+function Cadastro() {
+    // ids selecionados:
+
 const nome = document.getElementById('nome')
 const mail = document.getElementById('email')
 const password = document.getElementById('senha')
@@ -65,3 +67,8 @@ btnCriarConta.addEventListener('click', function(e){
     
 
 })
+
+
+}
+
+Cadastro()
