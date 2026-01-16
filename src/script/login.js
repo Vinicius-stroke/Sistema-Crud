@@ -30,6 +30,10 @@ function Login (){
         }
 
         alert('login realizado com sucesso')
+
+        setTimeout(() => {
+            window.location.href = 'Formulario.html'
+        }, 1000);
     })
 }
 
