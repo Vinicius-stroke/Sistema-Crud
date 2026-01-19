@@ -35,6 +35,8 @@ function Formulario () {
         cliente.push(usuario)
 
         localStorage.setItem('cliente', JSON.stringify(cliente))
+
+        alert('Cadastro realizado com sucesso!')
         
     })
 
